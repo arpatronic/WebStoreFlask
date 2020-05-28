@@ -17,6 +17,8 @@ the objetives of project:
 ## Running the app
 If you want to test the app locally you will need to follow these steps. Make sure that you have a python environment properly configured. We also recommend you to use a virtual environment.
 
+
+
 Clone the application:
 
     '''git clone https://github.com/arpatronic/WebStoreFlask.git'''
@@ -25,6 +27,8 @@ Install the requirements:
 
     "cd src/
     pip install -r requirements.txt"
+
+yoru need have install on your computer posgrest or mysql
 
 Create an environment variable with the database url. Usually, it looks like this 
 postgresql://mydb:MyPassw@localhost/test_web_store_db .
