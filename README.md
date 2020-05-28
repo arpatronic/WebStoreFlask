@@ -15,7 +15,7 @@ the objetives of project:
 
 
 ## Running the app
-Un email cu linkul de activare al contului a fost trimis la adresa arpoma167@gmail.com. Daca linkul nu este accesat in decurs de 30 de zile va fi necesara reluarea procesului de inregistrare.
+If you want to test the app locally you will need to follow these steps. Make sure that you have a python environment properly configured. We also recommend you to use a virtual environment.
 
 Clone the application:
 
