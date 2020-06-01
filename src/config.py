@@ -1,7 +1,7 @@
 from decouple import config 
 
 class Config: 
-    SECRET_KEY = 'codigofacilito' 
+    SECRET_KEY = 'mysecretkey' 
     
 
 class DevelopmentConfig(Config):
@@ -12,8 +12,8 @@ class DevelopmentConfig(Config):
     MAIL_SERVER = 'smtp.gmail.com'#'smtp.googlemail.com'#
     MAIL_PORT = 587
     MAIL_USE_TLS = True
-    MAIL_USERNAME = 'infointotech5@gmail.com'
-    MAIL_PASSWORD =  'Ytrewq123456'#config('MAIL_PASSWORD')#MAIL_PASSWORD #lib = OS   #lib decouple  este la blave como variable de entorno 
+    MAIL_USERNAME = 'Mymail'
+    MAIL_PASSWORD =  'MyPassMail'#config('MAIL_PASSWORD')#MAIL_PASSWORD #lib = OS   #lib decouple  este la blave como variable de entorno 
 
 
 class TestConfig(Config):
